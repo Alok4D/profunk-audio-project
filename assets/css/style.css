@@ -8,6 +8,11 @@
 }
 
 header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
 }
 
@@ -240,12 +245,21 @@ header {
 
 /* latest sound efects */
 
-.sound-section {
-  max-width: 1320px;
-  margin: 30px auto;
-  padding: 20px;
+.main-latest-section {
+  z-index: 10;
+  position: relative;
+  margin-top: -50px;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  background: #ffffff;
+  padding-top: 40px; 
 }
 
+.sound-section {
+  max-width: 1320px;
+  margin: 0px auto;
+  padding: 20px;
+}
 
 .top-bar {
   display: flex;
@@ -276,7 +290,6 @@ header {
   font-weight: 400;
 }
 
-
 .tabs {
   display: flex;
   align-items: center;
@@ -304,15 +317,12 @@ header {
   border-color: #171b2e;
 }
 
-
 .sound-grid {
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 22px;
   background: white;
 }
-
 
 .sound-card {
   background: #f8fafb;
@@ -321,7 +331,6 @@ header {
   flex-direction: column;
   gap: 18px;
 }
-
 
 .card-header {
   padding: 20px;
@@ -341,7 +350,6 @@ header {
   color: #222;
   line-height: 130%;
 }
-
 
 .player-row {
   margin: 0 20px;
@@ -372,7 +380,6 @@ header {
   color: #444;
 }
 
-
 .actions {
   display: flex;
   border-radius: 0 0 10px 10px;
@@ -394,9 +401,7 @@ header {
   border-right: 1px solid #d7dce0;
 }
 
-
 /* RESPONSIVE BREAKPOINTS   */
-
 
 @media (max-width: 992px) {
   .sound-grid {
@@ -407,7 +412,6 @@ header {
     font-size: 34px;
   }
 }
-
 
 @media (max-width: 768px) {
   .top-bar {
@@ -434,7 +438,6 @@ header {
   }
 }
 
-
 @media (max-width: 480px) {
   .player-row {
     flex-wrap: wrap;
@@ -445,3 +448,5 @@ header {
     font-size: 12px;
   }
 }
+
+/* popular sound efects */
