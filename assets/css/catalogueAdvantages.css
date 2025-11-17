@@ -39,6 +39,10 @@
   width: 38px;
   margin-bottom: 20px;
 }
+.advantage-card:hover {
+  background: #010101;
+  color: #fff;
+}
 
 .dark-card {
   background: #000;
@@ -68,13 +72,23 @@
 .light-card {
   margin-top: -50px;
 
-  background: #ffffff;
+  background: #f9fafb;
   color: #000;
   border-left: 1px solid #e5e7eb;
   border-right: 1px solid #e5e7eb;
 }
-.light-card:hover {
-  /* background: #000; */
+/* FIX FOR LIGHT CARD HOVER */
+.advantage-card.light-card:hover {
+  background: #000;
+}
+
+.advantage-card.light-card:hover h3,
+.advantage-card.light-card:hover p,
+.advantage-card.light-card:hover i {
+  color: #ffffff !important;
+}
+.advantage-card {
+  transition: all 0.3s ease;
 }
 
 .advantage-card.light-card h3 {
@@ -82,6 +96,12 @@
   color: #1d1f2c;
   line-height: 130%;
   font-weight: 600;
+}
+.advantage-card.light-card h3:hover {
+  color: #ffffff;
+  cursor: pointer;
+  transition: all;
+  animation-duration: 300;
 }
 .advantage-card.light-card p {
   font-size: 16px;
