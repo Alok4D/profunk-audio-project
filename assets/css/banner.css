@@ -9,6 +9,9 @@
   align-items: center;
   /* z-index: 5; */
 }
+.btn:hover .down-icon {
+  filter: brightness(0) saturate(100%) invert(0); /* turns it black */
+}
 
 .hero .overlay {
   height: 100%;
