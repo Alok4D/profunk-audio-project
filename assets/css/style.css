@@ -252,19 +252,19 @@ header {
   border-radius: 25px 25px 0 0;
   width: 100%;
   background: #ffffff;
-  padding-top: 40px; 
+  padding-top: 40px;
 }
 
 .sound-section {
   max-width: 1320px;
   margin: 0px auto;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .top-bar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   border-bottom: 3px solid #b1dafc;
   padding-bottom: 18px;
   margin-bottom: 28px;
@@ -440,12 +440,15 @@ header {
 
 @media (max-width: 480px) {
   .player-row {
-    flex-wrap: wrap;
+    flex-wrap: flex;
     justify-content: center;
   }
 
   .time {
     font-size: 12px;
+  }
+  .top-text {
+    text-align: center;
   }
 }
 
