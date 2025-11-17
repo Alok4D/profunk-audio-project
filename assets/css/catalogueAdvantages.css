@@ -32,7 +32,7 @@
 .advantage-card {
   padding: 45px 40px;
   text-align: left;
-  border-radius: 14px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .advantage-icon {
@@ -72,6 +72,9 @@
   color: #000;
   border-left: 1px solid #e5e7eb;
   border-right: 1px solid #e5e7eb;
+}
+.light-card:hover {
+  /* background: #000; */
 }
 
 .advantage-card.light-card h3 {
