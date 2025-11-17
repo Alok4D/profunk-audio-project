@@ -301,7 +301,7 @@ header {
   }
 
   .right-actions {
-    align-items: flex-start;
+    align-items: center;
   }
 
   .sound-grid {
