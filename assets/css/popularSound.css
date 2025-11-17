@@ -94,11 +94,7 @@
   color: #fff;
 }
 
-.sfx-info h3 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 700;
-}
+
 
 .sfx-info p {
   margin: 4px 0 0;
@@ -134,7 +130,7 @@
   }
 
   .popular-sfx-header {
-    flex-direction: column; 
+    /* flex-direction: column; */
     align-items: flex-start;
     gap: 20px;
   }
@@ -146,10 +142,6 @@
   .popular-des p {
     font-size: 15px;
     max-width: 350px;
-  }
-
-  .popular-btn {
-    justify-content: flex-start;
   }
 }
 
@@ -166,6 +158,10 @@
 
   .popular-sfx-header {
     margin-bottom: 50px;
+
+    /* flex-direction: column; */
+    align-items: flex-end;
+    gap: 20px;
   }
 
   .popular-btn {
@@ -201,6 +197,8 @@
     flex-direction: column;
     margin-bottom: 40px;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
   }
 
   .popular-des {
