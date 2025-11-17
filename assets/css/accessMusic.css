@@ -1,0 +1,89 @@
+
+.stay-connected {
+  max-width: 1320px;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  /* background-color: #142cc5; */
+}
+
+
+.connected-box {
+  position: relative;
+  width: 1320px;
+  height: 423px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-image: url("/assets/images/heroSectionImg/hero-section-image.png"); /* Insert your microphone image here */
+  background-size: cover;
+  background-position: center right;
+}
+
+
+.connected-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+}
+
+
+.connected-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+}
+
+
+.connected-content h2 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #ffffff;
+  line-height: 130%;
+}
+
+
+.connected-content p {
+  max-width: 620px;
+  line-height: 1.5;
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 22px;
+}
+
+
+.connected-content button {
+  background: white;
+  color: #1d1f2c;
+  border: none;
+  padding: 12px 28px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.connected-content button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .connected-box {
+    height: 300px;
+  }
+  .connected-content h2 {
+    font-size: 30px;
+  }
+  .connected-content p {
+    font-size: 14px;
+  }
+}

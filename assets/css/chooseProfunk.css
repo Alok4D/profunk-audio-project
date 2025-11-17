@@ -1,0 +1,162 @@
+.choose-profunk {
+  max-width: 1320px;
+  margin: 70px auto;
+}
+
+.choose-title {
+  font-size: 56px;
+  line-height: 130%;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.choose-subtitle {
+  max-width: 530px;
+  font-size: 18px;
+  color: #666;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.choose-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin-top: 20px;
+}
+
+.choose-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.choose-card i {
+  font-size: 22px;
+  color: #000;
+}
+
+.choose-card h3 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.choose-card p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* COLOR TYPES */
+.cream {
+  width: 648px;
+  background: #f7f2eb;
+}
+
+.white {
+  background: #f8fafc;
+}
+
+.black {
+  background: #000;
+  color: #fff;
+}
+
+.black i {
+  color: #fff;
+}
+
+.black p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ============================
+      TABLET (max-width: 1024px)
+============================ */
+@media (max-width: 1024px) {
+  .choose-section-title {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .choose-title {
+    font-size: 44px;
+  }
+
+  .choose-subtitle {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .choose-card {
+    height: auto;
+    padding: 24px;
+  }
+
+  .cream {
+    width: 100%;
+  }
+}
+
+/* ============================
+      MOBILE (max-width: 640px)
+============================ */
+@media (max-width: 640px) {
+  .choose-profunk {
+    margin: 50px 16px;
+  }
+
+  .choose-title {
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+  }
+
+  .choose-subtitle {
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .choose-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .choose-card {
+    padding: 22px;
+    height: auto;
+    gap: 10px;
+  }
+
+  .choose-card h3 {
+    font-size: 18px;
+  }
+
+  .choose-card p {
+    font-size: 13px;
+  }
+
+  .cream {
+    width: 100%;
+  }
+}
