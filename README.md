@@ -99,7 +99,7 @@ profunk-audio-project/
 
 2. **Navigate to project directory**
    ```bash
-   cd profunk-audio-project-ai
+   cd profunk-audio-project
    ```
 
 3. **Open in browser**
