@@ -13,7 +13,7 @@ A modern, responsive web application for browsing and accessing professional sou
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://profunk-audio-six.vercel.app/) *(Replace with actual deployment link)*
+[View Live Demo](https://profunk-audio-six.vercel.app/)
 
 ## 📸 Screenshots
 
@@ -29,7 +29,7 @@ A modern, responsive web application for browsing and accessing professional sou
 ## 📁 Project Structure
 
 ```
-profunk-audio-project-ai/
+profunk-audio-project/
 ├── assets/
 │   ├── css/
 │   │   ├── style.css              # Main stylesheet
