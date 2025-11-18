@@ -6,7 +6,7 @@
 }
 
 .soundfx-section {
-  padding: 60px 0;
+  padding: 60px 0px;
   width: 100%;
   max-width: 1320px;
   margin: auto;
@@ -73,16 +73,18 @@
 }
 
 .soundfx-info h3 {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 600;
-  color: #0f172a;
+  color: #1d1f2c;
+  line-height: 130%;
+  letter-spacing: 0.5%;
 }
 
 .soundfx-info p {
-  font-size: 14px;
-  line-height: 1.55;
+  font-size: 16px;
   margin: 10px 0 20px;
-  color: #4b5563;
+  color: #777980;
+  line-height: 1.55;
 }
 
 .soundfx-btn {
@@ -93,7 +95,9 @@
   border-radius: 8px;
   cursor: pointer;
   font-weight: 500;
-  color: #111827;
+  color: #1d1f2c;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .soundfx-btn:hover {
@@ -101,10 +105,18 @@
 }
 
 /* Responsive */
+@media (max-width: 1024) {
+  .soundfx-section {
+    padding: 0px 10px;
+  }
+}
 @media (max-width: 991px) {
   .soundfx-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* .soundfx-section {
+    padding: 0px 10px;
+  } */
 }
 
 @media (max-width: 600px) {
@@ -112,5 +124,13 @@
     grid-template-columns: 1fr;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .soundfx-header h2 {
+    font-size: 30px;
+  }
+  .popular-sound-card-main {
+    margin-top: 1px;
+    /* padding-top: 500px; */
+    /* border: 2px solid red; */
   }
 }

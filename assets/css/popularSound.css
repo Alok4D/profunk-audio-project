@@ -20,16 +20,17 @@
 }
 
 .popular-des h2 {
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 700;
+  line-height: 130%;
   margin: 0;
-  color: #111;
+  color: #1d1f2c;
 }
 
 .popular-des p {
-  margin-top: 8px;
+  margin-top: 18px;
   max-width: 420px;
-  color: #555;
+  color: #777980;
   line-height: 1.45;
   font-size: 16px;
 }
@@ -41,12 +42,13 @@
 }
 
 .sfx-btn {
-  background: #11121d;
+  background: #1d1f2c;
+  font-weight: 500;
   padding: 12px 22px;
   color: #fff;
   border: none;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 18px;
   cursor: pointer;
   transition: 0.25s ease;
 }
@@ -93,12 +95,17 @@
   left: 18px;
   color: #fff;
 }
-
-
+.sfx-info h3 {
+  font-size: 24px;
+  line-height: 130%;
+  font-weight: 600;
+  color: #ffffff;
+}
 
 .sfx-info p {
+  color: #e9e9ea;
   margin: 4px 0 0;
-  font-size: 13px;
+  font-size: 16px;
   opacity: 0.85;
 }
 
@@ -237,4 +244,5 @@
   .popular-btn {
     justify-content: center;
   }
+
 }
