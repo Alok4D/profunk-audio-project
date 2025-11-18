@@ -131,39 +131,12 @@ The project uses a professional color scheme:
 - **JavaScript**: Vanilla JS for lightweight performance
 - **Images**: Optimized assets for fast loading
 
-### Best Practices
-- Semantic HTML5 markup
-- Mobile-first responsive design
-- Accessible navigation and controls
-- Optimized image formats and sizes
-
-## 🌐 Browser Support
-
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-
-## 📈 Performance
-
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **Load Time**: < 3 seconds on 3G
-- **Image Optimization**: WebP format with fallbacks
-- **CSS/JS Minification**: Ready for production
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 👨‍💻 Author
 
 **Alok** - *MERN Stack Developer*
-- GitHub: [@yourusername](https://github.com/Alok4D)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/alok-roy-likedin/)
+- Portfolio: (https://alok-roy-dev.vercel.app/)
+- Phone: +88 01719277951
 - Email: alokroy602701@gmail.com
 
 ## 🙏 Acknowledgments
@@ -174,7 +147,7 @@ The project uses a professional color scheme:
 
 ## 📞 Support
 
-For support, email info@profunk.team or create an issue in this repository.
+For support, email alokroy602701@gmail.com or create an issue in this repository.
 
 ---
 
