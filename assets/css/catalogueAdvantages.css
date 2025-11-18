@@ -77,15 +77,17 @@
   border-left: 1px solid #e5e7eb;
   border-right: 1px solid #e5e7eb;
 }
-/* FIX FOR LIGHT CARD HOVER */
+
 .advantage-card.light-card:hover {
   background: #000;
 }
 
 .advantage-card.light-card:hover h3,
-.advantage-card.light-card:hover p,
 .advantage-card.light-card:hover i {
   color: #ffffff !important;
+}
+.advantage-card.light-card:hover p {
+  color: #696767;
 }
 .advantage-card {
   transition: all 0.3s ease;
@@ -93,7 +95,7 @@
 
 .advantage-card.light-card h3 {
   font-size: 32px;
-  color: #1d1f2c;
+  color: #010101;
   line-height: 130%;
   font-weight: 600;
 }
@@ -126,8 +128,6 @@
   color: #4b5563;
   line-height: 1.6;
 }
-
-/* RESPONSIVE – PIXEL PERFECT TEXT */
 
 @media (max-width: 1100px) {
   .advantage-header h2 {
@@ -169,7 +169,7 @@
   .light-card {
     margin-top: 0px;
   }
-    .advantage-wrapper {
+  .advantage-wrapper {
     margin-top: 30px;
   }
 }
@@ -184,7 +184,7 @@
     font-size: 13px;
     margin-bottom: 35px;
   }
-    .advantage-wrapper {
+  .advantage-wrapper {
     margin-top: 30px;
   }
 }
